@@ -9,29 +9,127 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/chat.css">
-    <link rel="stylesheet" href="js/chatbot.js">
     <title>Chat</title>
 </head>
 <body>
     <section class="chat">
         <div class="navbar">
-            <!-- <div class="navbar-left">
-                <img src="/images/user_1.png" alt="">
-                <p>Design Definition</p>
-            </div> -->
             <div class="navbar-left">
                 <img src="/images/logo.png" alt="logo">
             </div>
             <div class="navbar-right">
-                <img src="/images/user_1.png" alt="user_1">
+                <img src="/icons/search.svg" alt="search">
+                <input type="text" placeholder="Search for task and etc.">
+                <img src="/icons/bell-ringing.svg" alt="notification">
+                <img src="/icons/brand-hipchat.svg" alt="brand">
+                <img class="user-1" src="/images/user_1.png" alt="user_1">
             </div>      
         </div>
         <div class="content-chat">
             <div class="content-intern">
-
+                <div class="content-left">
+                    <div class="chat-contact">
+                        <div>
+                            <img src="/images/user_1.png" alt="">
+                            <p>Design Definition</p>
+                        </div>
+                        <img src="/icons/search.svg" alt="search">
+                    </div>
+                    <div class="chat-messages">
+                        <div class="message-user-1">
+                            <img src="/images/user_1.png" alt="user-1">
+                            <div class="message-user">
+                                <p>
+                                    What is design?
+                                </p>
+                            </div>
+                            <img src="/icons/edit.svg" alt="edit">
+                        </div>
+                        <div class="message-user-2">
+                            <img src="/images/user_2.png" alt="user-2" height="32px">
+                            <div class="message-user">
+                                <p>
+                                    Design is the process of creating a plan or a solution to a problem. It can refer to the process of creating a visual representation of an object, such as a building or a product, or it can refer to the process of creating a plan for a system or process. Design can also refer to the style or appearance of an object or space.
+                                </p>
+                            </div>
+                            <img src="/icons/thumb-up.svg" alt="thumb-up">
+                            <img src="/icons/thumb-down.svg" alt="thumb-down">
+                        </div>
+                        <div class="message-user-1">
+                            <img src="/images/user_1.png" alt="user-1">
+                            <div class="message-user">
+                                <p>
+                                    How it can be learn
+                                </p>
+                            </div>
+                            <img src="/icons/edit.svg" alt="edit">
+                        </div>
+                        <div class="message-user-2">
+                            <img src="/images/user_2.png" alt="user-2" height="32px">
+                            <div class="message-user">
+                                <p>
+                                    Design can be learned through a variety of means, such as:
+                                    <ul>
+                                        <li>
+                                            Formal education: Many universities and colleges offer degree programs in fields such as graphic design, industrial design, and architecture. These programs typically include classes in design theory, history, and techniques, as well as hands-on studio classes where students can apply what they've learned.
+                                        </li>
+                                        <li>
+                                            Online courses: There are many online courses and tutorials that cover various aspects of design, such as graphic design, web design, and product design. These can be a good option for those who are unable to attend traditional classes or who want to learn at their own pace.
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <img src="/icons/thumb-up.svg" alt="thumb-up">
+                            <img src="/icons/thumb-down.svg" alt="thumb-down">
+                        </div>
+                        <div class="message-load">
+                            <img src="/icons/message-load.svg" alt="load">
+                        </div>
+                    </div>
+                    <div class="chat-input-message">
+                        <input id="input-message" type="text" name="input-message" placeholder="Your message">
+                        <img id="send-message" src="/icons/send.svg" alt="send">
+                    </div>
+                </div>
+                <div class="content-right">
+                    <div class="chat-new">
+                        <p>New Chat</p>
+                        <img src="/icons/circle-plus.svg" alt="plus">
+                    </div>
+                    <div class="chat-users">
+                        <div class="user">
+                            <div>
+                                <img src="/images/user_1.png" alt="">
+                                <p>Design Definition</p>
+                            </div>
+                            <img src="/icons/edit.svg" alt="edit">
+                        </div>
+                        <div class="user">
+                            <div>
+                                <img src="/images/user_1.png" alt="">
+                                <p>UIUX design</p>
+                            </div>
+                            <img src="/icons/edit.svg" alt="edit">
+                        </div>
+                        <div class="user">
+                            <div>
+                                <img src="/images/user_1.png" alt="">
+                                <p>Web site development</p>
+                            </div>
+                            <img src="/icons/edit.svg" alt="edit">
+                        </div>
+                        <div class="user">
+                            <div>
+                                <img src="/images/user_1.png" alt="">
+                                <p>App Development</p>
+                            </div>
+                            <img src="/icons/edit.svg" alt="edit">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
     </section>
+    <script src="js/chatbot.js"></script>
 </body>
 </html>
