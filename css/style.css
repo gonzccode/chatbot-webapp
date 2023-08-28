@@ -29,6 +29,10 @@ body {
     text-align: center;
 }
 
+.logo img {
+    cursor: pointer;
+}
+
 
 /*Search*/
 .search-content {
@@ -55,10 +59,11 @@ body {
     border: none;
     outline: none;
     flex: 1;
-    padding: 5px 5px 5px 50px;
+    padding: 5px 5px 5px 60px;
     border-radius: 60px;
     background: #FFFFFF;
     box-shadow: 0px 6px 30px 0px rgba(0, 97, 255, 0.20);
+    font-family: 'Rubik';
 }
   
 .search-icon {
